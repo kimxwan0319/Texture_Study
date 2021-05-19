@@ -94,9 +94,17 @@
 		928D24A82655570100A9E343 /* PracticeCases */ = {
 			isa = PBXGroup;
 			children = (
-				928D24A92655579200A9E343 /* HelloTexture.swift */,
+				928D24AC265559AF00A9E343 /* HelloTexture */,
 			);
 			path = PracticeCases;
+			sourceTree = "<group>";
+		};
+		928D24AC265559AF00A9E343 /* HelloTexture */ = {
+			isa = PBXGroup;
+			children = (
+				928D24A92655579200A9E343 /* HelloTexture.swift */,
+			);
+			path = HelloTexture;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
