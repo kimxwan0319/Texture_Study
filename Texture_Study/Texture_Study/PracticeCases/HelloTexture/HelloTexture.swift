@@ -7,10 +7,10 @@
 
 import AsyncDisplayKit
 
-class HelloTextureViewController: ASDKViewController<ASDisplayNode> {
+class HelloTextureViewController: ASDKViewController<MessageNode> {
 
     override init() {
-        super.init(node: ASDisplayNode())
+        super.init(node: MessageNode())
     }
     
     required init?(coder: NSCoder) {

@@ -21,7 +21,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         window = UIWindow(windowScene: windowScence)
         window?.windowScene = windowScence
                        
-        let rootViewController = ViewController()
+        let rootViewController = HelloTextureViewController()
         window?.rootViewController = rootViewController
         window?.makeKeyAndVisible()
     }
