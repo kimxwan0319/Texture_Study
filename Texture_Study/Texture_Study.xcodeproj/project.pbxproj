@@ -13,6 +13,7 @@
 		928D2491265541B700A9E343 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928D2490265541B700A9E343 /* ViewController.swift */; };
 		928D2496265541B800A9E343 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 928D2495265541B800A9E343 /* Assets.xcassets */; };
 		928D2499265541B800A9E343 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 928D2497265541B800A9E343 /* LaunchScreen.storyboard */; };
+		928D24AA2655579200A9E343 /* HelloTexture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928D24A92655579200A9E343 /* HelloTexture.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		928D2495265541B800A9E343 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		928D2498265541B800A9E343 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		928D249A265541B800A9E343 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		928D24A92655579200A9E343 /* HelloTexture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloTexture.swift; sourceTree = "<group>"; };
 		AEF666CD22BD8867197DB109 /* Pods_Texture_Study.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Texture_Study.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8937C6F8F20EDC7A1B1DD0E /* Pods-Texture_Study.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Texture_Study.release.xcconfig"; path = "Target Support Files/Pods-Texture_Study/Pods-Texture_Study.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -78,6 +80,7 @@
 		928D248B265541B700A9E343 /* Texture_Study */ = {
 			isa = PBXGroup;
 			children = (
+				928D24A82655570100A9E343 /* PracticeCases */,
 				928D248C265541B700A9E343 /* AppDelegate.swift */,
 				928D248E265541B700A9E343 /* SceneDelegate.swift */,
 				928D2490265541B700A9E343 /* ViewController.swift */,
@@ -86,6 +89,14 @@
 				928D249A265541B800A9E343 /* Info.plist */,
 			);
 			path = Texture_Study;
+			sourceTree = "<group>";
+		};
+		928D24A82655570100A9E343 /* PracticeCases */ = {
+			isa = PBXGroup;
+			children = (
+				928D24A92655579200A9E343 /* HelloTexture.swift */,
+			);
+			path = PracticeCases;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -203,6 +214,7 @@
 			files = (
 				928D2491265541B700A9E343 /* ViewController.swift in Sources */,
 				928D248D265541B700A9E343 /* AppDelegate.swift in Sources */,
+				928D24AA2655579200A9E343 /* HelloTexture.swift in Sources */,
 				928D248F265541B700A9E343 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
