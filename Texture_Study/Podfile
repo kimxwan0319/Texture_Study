@@ -6,5 +6,6 @@ target 'Texture_Study' do
   use_frameworks!
 
   # Pods for Texture_Study
+  pod 'Texture'
 
 end
