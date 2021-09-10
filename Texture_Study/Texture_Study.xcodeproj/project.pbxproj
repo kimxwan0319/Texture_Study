@@ -8,9 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		89973316D30CFB0C730E7841 /* Pods_Texture_Study.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEF666CD22BD8867197DB109 /* Pods_Texture_Study.framework */; };
+		9275AEB226EADA0E00AC5552 /* QuickSingleNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9275AEB126EADA0E00AC5552 /* QuickSingleNode.swift */; };
+		9275AEB426EB920000AC5552 /* QuickSingleNodeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9275AEB326EB920000AC5552 /* QuickSingleNodeController.swift */; };
 		928D248D265541B700A9E343 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928D248C265541B700A9E343 /* AppDelegate.swift */; };
 		928D248F265541B700A9E343 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928D248E265541B700A9E343 /* SceneDelegate.swift */; };
-		928D2491265541B700A9E343 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928D2490265541B700A9E343 /* ViewController.swift */; };
 		928D2496265541B800A9E343 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 928D2495265541B800A9E343 /* Assets.xcassets */; };
 		928D2499265541B800A9E343 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 928D2497265541B800A9E343 /* LaunchScreen.storyboard */; };
 		928D24AA2655579200A9E343 /* HelloTexture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928D24A92655579200A9E343 /* HelloTexture.swift */; };
@@ -20,10 +21,11 @@
 
 /* Begin PBXFileReference section */
 		590E4ECF717954CD72A69CEA /* Pods-Texture_Study.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Texture_Study.debug.xcconfig"; path = "Target Support Files/Pods-Texture_Study/Pods-Texture_Study.debug.xcconfig"; sourceTree = "<group>"; };
+		9275AEB126EADA0E00AC5552 /* QuickSingleNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickSingleNode.swift; sourceTree = "<group>"; };
+		9275AEB326EB920000AC5552 /* QuickSingleNodeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickSingleNodeController.swift; sourceTree = "<group>"; };
 		928D2489265541B700A9E343 /* Texture_Study.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Texture_Study.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		928D248C265541B700A9E343 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		928D248E265541B700A9E343 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		928D2490265541B700A9E343 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		928D2495265541B800A9E343 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		928D2498265541B800A9E343 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		928D249A265541B800A9E343 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -63,6 +65,23 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		9275AEAF26EAD7D800AC5552 /* 3. Quick Example */ = {
+			isa = PBXGroup;
+			children = (
+				9275AEB026EAD96000AC5552 /* SingleScreen */,
+			);
+			path = "3. Quick Example";
+			sourceTree = "<group>";
+		};
+		9275AEB026EAD96000AC5552 /* SingleScreen */ = {
+			isa = PBXGroup;
+			children = (
+				9275AEB126EADA0E00AC5552 /* QuickSingleNode.swift */,
+				9275AEB326EB920000AC5552 /* QuickSingleNodeController.swift */,
+			);
+			path = SingleScreen;
+			sourceTree = "<group>";
+		};
 		928D2480265541B700A9E343 = {
 			isa = PBXGroup;
 			children = (
@@ -87,7 +106,6 @@
 				928D24A82655570100A9E343 /* PracticeCases */,
 				928D248C265541B700A9E343 /* AppDelegate.swift */,
 				928D248E265541B700A9E343 /* SceneDelegate.swift */,
-				928D2490265541B700A9E343 /* ViewController.swift */,
 				928D2495265541B800A9E343 /* Assets.xcassets */,
 				928D2497265541B800A9E343 /* LaunchScreen.storyboard */,
 				928D249A265541B800A9E343 /* Info.plist */,
@@ -98,6 +116,7 @@
 		928D24A82655570100A9E343 /* PracticeCases */ = {
 			isa = PBXGroup;
 			children = (
+				9275AEAF26EAD7D800AC5552 /* 3. Quick Example */,
 				928D24B226563C3A00A9E343 /* 2. Up&Down */,
 				928D24AC265559AF00A9E343 /* 1. HelloTexture */,
 			);
@@ -234,12 +253,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				928D2491265541B700A9E343 /* ViewController.swift in Sources */,
+				9275AEB426EB920000AC5552 /* QuickSingleNodeController.swift in Sources */,
 				928D24AE26555AAA00A9E343 /* MessageNode.swift in Sources */,
 				928D248D265541B700A9E343 /* AppDelegate.swift in Sources */,
 				928D24AA2655579200A9E343 /* HelloTexture.swift in Sources */,
 				928D248F265541B700A9E343 /* SceneDelegate.swift in Sources */,
 				928D24B426563C6D00A9E343 /* UpDownViewController.swift in Sources */,
+				9275AEB226EADA0E00AC5552 /* QuickSingleNode.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
