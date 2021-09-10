@@ -7,5 +7,6 @@ target 'Texture_Study' do
 
   # Pods for Texture_Study
   pod 'Texture'
+  pod 'Then'
 
 end
