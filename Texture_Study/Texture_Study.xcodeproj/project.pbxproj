@@ -18,7 +18,8 @@
 		928D2499265541B800A9E343 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 928D2497265541B800A9E343 /* LaunchScreen.storyboard */; };
 		928D24AA2655579200A9E343 /* HelloTexture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928D24A92655579200A9E343 /* HelloTexture.swift */; };
 		928D24AE26555AAA00A9E343 /* MessageNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928D24AD26555AAA00A9E343 /* MessageNode.swift */; };
-		928D24B426563C6D00A9E343 /* UpDownViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928D24B326563C6D00A9E343 /* UpDownViewController.swift */; };
+		928D24B426563C6D00A9E343 /* UpDownNodeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928D24B326563C6D00A9E343 /* UpDownNodeController.swift */; };
+		92C9A02826EC75730057264F /* UpDownNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C9A02726EC75730057264F /* UpDownNode.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,7 +36,8 @@
 		928D249A265541B800A9E343 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		928D24A92655579200A9E343 /* HelloTexture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloTexture.swift; sourceTree = "<group>"; };
 		928D24AD26555AAA00A9E343 /* MessageNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageNode.swift; sourceTree = "<group>"; };
-		928D24B326563C6D00A9E343 /* UpDownViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpDownViewController.swift; sourceTree = "<group>"; };
+		928D24B326563C6D00A9E343 /* UpDownNodeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpDownNodeController.swift; sourceTree = "<group>"; };
+		92C9A02726EC75730057264F /* UpDownNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpDownNode.swift; sourceTree = "<group>"; };
 		AEF666CD22BD8867197DB109 /* Pods_Texture_Study.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Texture_Study.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8937C6F8F20EDC7A1B1DD0E /* Pods-Texture_Study.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Texture_Study.release.xcconfig"; path = "Target Support Files/Pods-Texture_Study/Pods-Texture_Study.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -149,7 +151,8 @@
 		928D24B226563C3A00A9E343 /* 2. Up&Down */ = {
 			isa = PBXGroup;
 			children = (
-				928D24B326563C6D00A9E343 /* UpDownViewController.swift */,
+				928D24B326563C6D00A9E343 /* UpDownNodeController.swift */,
+				92C9A02726EC75730057264F /* UpDownNode.swift */,
 			);
 			path = "2. Up&Down";
 			sourceTree = "<group>";
@@ -272,9 +275,10 @@
 				928D248D265541B700A9E343 /* AppDelegate.swift in Sources */,
 				928D24AA2655579200A9E343 /* HelloTexture.swift in Sources */,
 				928D248F265541B700A9E343 /* SceneDelegate.swift in Sources */,
-				928D24B426563C6D00A9E343 /* UpDownViewController.swift in Sources */,
+				928D24B426563C6D00A9E343 /* UpDownNodeController.swift in Sources */,
 				9275AEB926EBA7A400AC5552 /* QuickListNodeController.swift in Sources */,
 				9275AEB226EADA0E00AC5552 /* QuickSingleNode.swift in Sources */,
+				92C9A02826EC75730057264F /* UpDownNode.swift in Sources */,
 				9275AEB726EB9B2B00AC5552 /* QuickListCellNode.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

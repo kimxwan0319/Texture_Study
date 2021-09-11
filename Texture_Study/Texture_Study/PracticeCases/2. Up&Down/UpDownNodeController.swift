@@ -1,5 +1,5 @@
 //
-//  UpDownViewController.swift
+//  UpDownNodeController.swift
 //  Texture_Study
 //
 //  Created by 김수완 on 2021/05/20.
@@ -7,10 +7,10 @@
 
 import AsyncDisplayKit
 
-class UpDownViewController: ASDKViewController<ASDisplayNode> {
+class UpDownNodeController: ASDKViewController<UpDownNode> {
 
     override init() {
-        super.init(node: ASDisplayNode())
+        super.init(node: UpDownNode())
     }
     
     required init?(coder: NSCoder) {
