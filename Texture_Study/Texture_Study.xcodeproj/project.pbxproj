@@ -10,6 +10,8 @@
 		89973316D30CFB0C730E7841 /* Pods_Texture_Study.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEF666CD22BD8867197DB109 /* Pods_Texture_Study.framework */; };
 		9275AEB226EADA0E00AC5552 /* QuickSingleNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9275AEB126EADA0E00AC5552 /* QuickSingleNode.swift */; };
 		9275AEB426EB920000AC5552 /* QuickSingleNodeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9275AEB326EB920000AC5552 /* QuickSingleNodeController.swift */; };
+		9275AEB726EB9B2B00AC5552 /* QuickListCellNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9275AEB626EB9B2B00AC5552 /* QuickListCellNode.swift */; };
+		9275AEB926EBA7A400AC5552 /* QuickListNodeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9275AEB826EBA7A400AC5552 /* QuickListNodeController.swift */; };
 		928D248D265541B700A9E343 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928D248C265541B700A9E343 /* AppDelegate.swift */; };
 		928D248F265541B700A9E343 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928D248E265541B700A9E343 /* SceneDelegate.swift */; };
 		928D2496265541B800A9E343 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 928D2495265541B800A9E343 /* Assets.xcassets */; };
@@ -23,6 +25,8 @@
 		590E4ECF717954CD72A69CEA /* Pods-Texture_Study.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Texture_Study.debug.xcconfig"; path = "Target Support Files/Pods-Texture_Study/Pods-Texture_Study.debug.xcconfig"; sourceTree = "<group>"; };
 		9275AEB126EADA0E00AC5552 /* QuickSingleNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickSingleNode.swift; sourceTree = "<group>"; };
 		9275AEB326EB920000AC5552 /* QuickSingleNodeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickSingleNodeController.swift; sourceTree = "<group>"; };
+		9275AEB626EB9B2B00AC5552 /* QuickListCellNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickListCellNode.swift; sourceTree = "<group>"; };
+		9275AEB826EBA7A400AC5552 /* QuickListNodeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = QuickListNodeController.swift; path = ../QuickListNodeController.swift; sourceTree = "<group>"; };
 		928D2489265541B700A9E343 /* Texture_Study.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Texture_Study.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		928D248C265541B700A9E343 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		928D248E265541B700A9E343 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -68,6 +72,7 @@
 		9275AEAF26EAD7D800AC5552 /* 3. Quick Example */ = {
 			isa = PBXGroup;
 			children = (
+				9275AEB526EB9B0500AC5552 /* ListScreen */,
 				9275AEB026EAD96000AC5552 /* SingleScreen */,
 			);
 			path = "3. Quick Example";
@@ -80,6 +85,15 @@
 				9275AEB326EB920000AC5552 /* QuickSingleNodeController.swift */,
 			);
 			path = SingleScreen;
+			sourceTree = "<group>";
+		};
+		9275AEB526EB9B0500AC5552 /* ListScreen */ = {
+			isa = PBXGroup;
+			children = (
+				9275AEB826EBA7A400AC5552 /* QuickListNodeController.swift */,
+				9275AEB626EB9B2B00AC5552 /* QuickListCellNode.swift */,
+			);
+			path = ListScreen;
 			sourceTree = "<group>";
 		};
 		928D2480265541B700A9E343 = {
@@ -259,7 +273,9 @@
 				928D24AA2655579200A9E343 /* HelloTexture.swift in Sources */,
 				928D248F265541B700A9E343 /* SceneDelegate.swift in Sources */,
 				928D24B426563C6D00A9E343 /* UpDownViewController.swift in Sources */,
+				9275AEB926EBA7A400AC5552 /* QuickListNodeController.swift in Sources */,
 				9275AEB226EADA0E00AC5552 /* QuickSingleNode.swift in Sources */,
+				9275AEB726EB9B2B00AC5552 /* QuickListCellNode.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
